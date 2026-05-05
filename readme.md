@@ -4,6 +4,7 @@ This project explores the relationship between runs scored before the fall of th
 The analysis focuses on identifying historical trends and patterns that explain how early batting stability influences the likelihood of winning a match.
 Note: This is a trend and exploratory analysis, not a predictive model.
 The aim is to understand associations, not to forecast match results.
+
 ---
 ### Scope of Analysis
 Innings Considered
@@ -20,6 +21,7 @@ abandoned or restarted matches,
 data ingestion artifacts.
 
 Such records do not reflect normal match structure and were removed to maintain conceptual clarity and consistency in the trend analysis.
+
 ---
 ### Methodology Summary
 
@@ -44,6 +46,7 @@ Outcome Association
 
 Each innings was labeled as a win or loss based on the match result.
 Win percentages were computed per bucket to observe trends.
+
 ---
 
 ### Key Trends Observed
@@ -55,6 +58,7 @@ Innings with stable opening partnerships (30+ runs) consistently show higher win
 
 These findings quantitatively support a long‑held cricketing insight:
 avoiding early wickets materially improves match outcomes.
+
 ---
 ### Visual Analysis Included
 
@@ -63,18 +67,22 @@ Comparison of first‑innings vs second‑innings distributions
 Win percentage across runs‑before‑first‑wicket buckets
 
 All visualizations are designed to explain patterns, not to make predictions.
+
 ---
 ### Interpretation Notes
 
 This analysis demonstrates association, not causation.
 Runs before the first wicket are one of many factors influencing match results.
 Conditions such as pitch, opposition strength, middle‑order performance, and match context are outside the scope of this study.
+
 ---
 ### Key Takeaway
 
 Teams that score more runs before losing their first wicket consistently show higher match‑winning percentages, highlighting the strategic importance of opening‑partnership stability in limited‑overs cricket.
+
 ---
 ### Intended Use
+
 This repository is suitable for:
 
 Exploratory sports analytics
